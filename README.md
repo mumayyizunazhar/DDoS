@@ -1,93 +1,4 @@
-# 🛡️ DDoSv1 - AI-Powered DDoS & Network Stress Testing Tool
-
-> ⚠️ **PENTING:** Proyek ini dibuat untuk tujuan **pendidikan dan pengujian sistem internal saja**. Penggunaan tanpa izin eksplisit dari pemilik sistem adalah **ilegal** dan **dilarang keras**.
-
----
-
-## 📌 Deskripsi
-
-`DDoSv1` adalah tool simulasi Distributed Denial of Service (DDoS) yang didukung teknologi Artificial Intelligence (AI), dirancang untuk:
-
-- Pengujian ketahanan server dan infrastruktur jaringan
-- Penelitian keamanan siber
-- Pendidikan dan pelatihan etikal hacking
-- Eksperimen deteksi anomali jaringan berbasis AI
-
-Tool ini mencakup banyak metode serangan dan teknik injeksi tingkat lanjut untuk membantu tim keamanan **memahami, menguji, dan melindungi sistem mereka sendiri**.
-
----
-
-## ⚖️ Disclaimer Hukum
-
-### ❗ PERINGATAN
-
-**Dilarang keras** menggunakan tool ini pada:
-
-- Website, server, atau layanan **tanpa izin tertulis**
-- Infrastruktur milik publik, pemerintah, atau pihak ketiga lainnya
-- Jaringan umum atau pribadi **yang bukan milik Anda**
-
-Pelanggaran hukum dapat dikenakan sanksi pidana berdasarkan undang-undang seperti:
-
-- Undang-Undang ITE (Indonesia)
-- Computer Fraud and Abuse Act (CFAA)
-- General Data Protection Regulation (GDPR)
-
-Penulis **tidak bertanggung jawab** atas penyalahgunaan alat ini.
-
-### ✅ Penggunaan yang Diizinkan
-
-Anda **boleh menggunakan tool ini jika dan hanya jika**:
-
-- Anda adalah pemilik sistem yang diuji
-- Anda memiliki izin tertulis dari pemilik sistem
-- Anda menggunakannya dalam lingkungan **lab tertutup** atau **simulasi pendidikan**
-
----
-
-## ✨ Fitur Utama
-
-- 🤖 **AI Decision Engine**  
-  Menggunakan Decision Tree, Deep Neural Network, dan Reinforcement Learning untuk memilih metode serangan yang optimal.
-
-- 🧠 **Anomaly Detection**  
-  Deteksi serangan yang tidak biasa dengan Isolation Forest dan AutoEncoder.
-
-- 💣 **Metode DDoS Lengkap**
-  - UDP Flood
-  - TCP Flood
-  - ICMP & TLS Flood
-  - HTTP/HTTPS Flood (dengan user-agent spoofing)
-  - Stealth TCP handshake
-  - ARP Spoofing & Hijacking
-  - DNS Spoof
-  - Payload Injection & Hijack
-
-- 🧬 **Adaptive Learning**
-  - Model AI belajar dari latensi & feedback serangan
-  - Pembelajaran online dengan stream model `river` + deep learning Keras/TensorFlow
-
-- 📩 **Notifikasi Telegram**
-  - Real-time laporan serangan, anomaly detection, dan status target
-
----
-
-## ⚙️ Instalasi
-
-### Persyaratan
-
-- Python 3.8 atau lebih baru
-- Paket berikut (akan di-install melalui `requirements.txt`)
-
-### Cara Install
-
-```bash
-git clone https://github.com/mumayyizunazhar/DDoSv1.git
-cd DDoSv1
-python DDoSv1.py''
-
 IN ENGLISH
-
 # 🛡️ DDoSv1 - AI-Powered DDoS & Network Stress Testing Tool
 
 > ⚠️ **IMPORTANT NOTICE:** This tool is intended strictly for **educational purposes and internal authorized testing only**. Unauthorized use against third-party systems is **illegal and strictly prohibited**.
@@ -162,12 +73,95 @@ You are permitted to use this tool **ONLY IF**:
 
 ---
 
-## ⚙️ Installation
+### Install Instructions
 
-### Requirements
+bash
+git clone https://github.com/mumayyizunazhar/DDoSv1.git
+cd DDoSv1
+python DDoSv1.py
 
-- Python 3.8+
-- Required packages (listed in `requirements.txt`)
+
+IN INDONESIAN
+# 🛡️ DDoSv1 - AI-Powered DDoS & Network Stress Testing Tool
+
+> ⚠️ **PENTING:** Proyek ini dibuat untuk tujuan **pendidikan dan pengujian sistem internal saja**. Penggunaan tanpa izin eksplisit dari pemilik sistem adalah **ilegal** dan **dilarang keras**.
+
+---
+
+## 📌 Deskripsi
+
+`DDoSv1` adalah tool simulasi Distributed Denial of Service (DDoS) yang didukung teknologi Artificial Intelligence (AI), dirancang untuk:
+
+- Pengujian ketahanan server dan infrastruktur jaringan
+- Penelitian keamanan siber
+- Pendidikan dan pelatihan etikal hacking
+- Eksperimen deteksi anomali jaringan berbasis AI
+
+Tool ini mencakup banyak metode serangan dan teknik injeksi tingkat lanjut untuk membantu tim keamanan **memahami, menguji, dan melindungi sistem mereka sendiri**.
+
+---
+
+## ⚖️ Disclaimer Hukum
+
+### ❗ PERINGATAN
+
+**Dilarang keras** menggunakan tool ini pada:
+
+- Website, server, atau layanan **tanpa izin tertulis**
+- Infrastruktur milik publik, pemerintah, atau pihak ketiga lainnya
+- Jaringan umum atau pribadi **yang bukan milik Anda**
+
+Pelanggaran hukum dapat dikenakan sanksi pidana berdasarkan undang-undang seperti:
+
+- Undang-Undang ITE (Indonesia)
+- Computer Fraud and Abuse Act (CFAA)
+- General Data Protection Regulation (GDPR)
+
+Penulis **tidak bertanggung jawab** atas penyalahgunaan alat ini.
+
+### ✅ Penggunaan yang Diizinkan
+
+Anda **boleh menggunakan tool ini jika dan hanya jika**:
+
+- Anda adalah pemilik sistem yang diuji
+- Anda memiliki izin tertulis dari pemilik sistem
+- Anda menggunakannya dalam lingkungan **lab tertutup** atau **simulasi pendidikan**
+
+---
+
+## ✨ Fitur Utama
+
+- 🤖 **AI Decision Engine**  
+  Menggunakan Decision Tree, Deep Neural Network, dan Reinforcement Learning untuk memilih metode serangan yang optimal.
+
+- 🧠 **Anomaly Detection**  
+  Deteksi serangan yang tidak biasa dengan Isolation Forest dan AutoEncoder.
+
+- 💣 **Metode DDoS Lengkap**
+  - UDP Flood
+  - TCP Flood
+  - ICMP & TLS Flood
+  - HTTP/HTTPS Flood (dengan user-agent spoofing)
+  - Stealth TCP handshake
+  - ARP Spoofing & Hijacking
+  - DNS Spoof
+  - Payload Injection & Hijack
+
+- 🧬 **Adaptive Learning**
+  - Model AI belajar dari latensi & feedback serangan
+  - Pembelajaran online dengan stream model `river` + deep learning Keras/TensorFlow
+
+- 📩 **Notifikasi Telegram**
+  - Real-time laporan serangan, anomaly detection, dan status target
+
+---
+### Cara Install
+
+```bash
+git clone https://github.com/mumayyizunazhar/DDoSv1.git
+cd DDoSv1
+python DDoSv1.py''
+
 
 ### Install Instructions
 
