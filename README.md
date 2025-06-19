@@ -75,11 +75,11 @@ You are permitted to use this tool **ONLY IF**:
 
 ### Install Instructions
 
-bash
+```bash
 git clone https://github.com/mumayyizunazhar/DDoSv1.git
 cd DDoSv1
 python DDoSv1.py
-
+```
 
 IN INDONESIAN
 # 🛡️ DDoSv1 - AI-Powered DDoS & Network Stress Testing Tool
@@ -166,6 +166,6 @@ python DDoSv1.py''
 ### Install Instructions
 
 ```bash
-git clone https://github.com/yourusername/DDoSv1.git
+git clone https://github.com/mumayyizunazhar/DDoSv1.git
 cd DDoSv1
-pip install -r requirements.txt
+python DDoSv1.py
